@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    margin: 20px;
+}
+
+.galerie-cartes {
+    /* C'est ici que vous allez travailler ! */
+    display: grid;
+    grid-template-columns: 300px 1fr 2fr;
+    gap: 20px;
+}
+
+.carte {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Styles pour le titre et le paragraphe des cartes */
+.carte h3 {
+    color: #333;
+}
+
+.carte p {
+    color: #666;
+    line-height: 1.5;
+}
